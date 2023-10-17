@@ -1,4 +1,4 @@
-### Hi there 👋
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Shantell+Sans&size=23&duration=3960&pause=100&color=186EBB&background=FFFFFF00&center=true&vCenter=true&random=false&width=534&lines=hey%2C+i'm+Devansh+%F0%9F%91%8B;+a+tech+enthusiast+and+beginner+developer" alt="Typing SVG" /></a>
 
 <!--
 **genius-de/genius-de** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
