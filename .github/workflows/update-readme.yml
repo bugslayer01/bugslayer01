@@ -1,0 +1,19 @@
+name: Update README
+on:
+  schedule:
+    - cron: "*/5 * * * *" # every 5 minutes (change to suit your needs)
+    #https://jasonet.co/posts/scheduled-actions/#the-cron-syntax
+    #for my future referance
+  workflow_dispatch:
+jobs:
+  build:
+    name: Update this repo's README with recent activity
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
