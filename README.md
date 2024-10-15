@@ -12,4 +12,3 @@
 
 <!--END_SECTION:activity-->
 
----<!--
