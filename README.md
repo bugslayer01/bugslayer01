@@ -1,4 +1,4 @@
-![Hello World](./assets/banner.png)
+<!--![Hello World](./assets/banner.png)
 ---
 
 
@@ -12,4 +12,4 @@
 
 <!--END_SECTION:activity-->
 
----
+---<!--
