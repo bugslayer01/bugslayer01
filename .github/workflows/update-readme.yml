@@ -1,9 +1,7 @@
 name: Update README
 on:
   schedule:
-    - cron: "*/5 * * * *" # every 5 minutes (change to suit your needs)
-    #https://jasonet.co/posts/scheduled-actions/#the-cron-syntax
-    #for my future referance
+    - cron: "*/30 * * * *" # Runs every 30 minutes, adjust based on your preference
   workflow_dispatch:
 jobs:
   build:
@@ -17,3 +15,7 @@ jobs:
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "This is an auto-generated commit for my readme.md file 🚀"
+          MAX_LINES: 10 # Customize number of activity lines
+          COMMIT_NAME: GitHub Activity Readme
