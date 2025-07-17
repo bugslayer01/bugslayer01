@@ -7,13 +7,20 @@
  ```python
  class WhoAmI:
  	user = 'Devansh Vashishat'
-		current_work = 'Backend developer'
+		Exp IN = [
+				'Backend developer',
+				'DevOps '
+			]	
 		hobbies = [
 				'Programming',
 				'Reading Manga and Manhwa',
-				'Some times I read Books to Mostly self help'
-				'Trying out new feils in tech '
-			]
+				'Some times I read Books too, Mostly self help'
+			 	'Trying out new feilds in tech '
+		          ]
+		Currently Learning =[
+					'Lang Graph',
+					'DevOps tooling (Docker,Kubernetes,Jenkins,Terraform,Prometheus,GitHub Actions)
+	                            ]
 	
 	def getCity():
 		return Chandigarh()
