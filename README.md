@@ -14,8 +14,8 @@
 		hobbies = [
 				'Programming',
 				'Reading Manga and Manhwa',
-				'Some times I read Books too, Mostly self help'
-			 	'Trying out new feilds in tech '
+				'Sometimes I read books too, Mostly self help'
+			 	'Trying out new fields in tech '
 		          ]
 		Currently Learning =[
 					'Lang Graph',
