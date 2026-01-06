@@ -7,7 +7,7 @@
  ```python
  class WhoAmI:
  	user = 'Devansh Vashishat'
-		Exp IN = [
+		expIN = [
 				'Backend developer',
 				'DevOps '
 			]	
@@ -17,9 +17,10 @@
 				'Sometimes I read books too, Mostly self help'
 			 	'Trying out new fields in tech '
 		          ]
-		Currently Learning =[
+		currentlyLearning =[
 					'Lang Graph',
-					'DevOps tooling (Docker,Kubernetes,Jenkins,Terraform,Prometheus,GitHub Actions)
+					'DevOps tooling (Docker,Kubernetes,Jenkins,Terraform,Prometheus,GitHub Actions)',
+					'Algo & CP'
 	                            ]
 	
 	def getCity():
